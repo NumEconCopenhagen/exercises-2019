@@ -1,0 +1,16 @@
+name: base
+channels:
+  - damianavila82
+  - conda-forge
+dependencies:
+  - python
+  - requests
+  - numba
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - ipywidgets
+  - rise
+  - pip:
+    - git+https://github.com/NumEconCopenhagen/NumEcon
