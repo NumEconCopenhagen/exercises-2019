@@ -4,4 +4,6 @@ FROM elben10/jupyterlab-docker:f453d0b09b4daaa453e65bcbc84982576c4aa112
 COPY . ${HOME}
 
 # Install conda deps
-RUN conda env update -f environment.yml
+RUN if [ ! -f /tmp/foo.txt ]; then \
+      conda env update -f environment.yml; \
+    fi
