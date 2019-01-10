@@ -12,6 +12,3 @@ dependencies:
   - matplotlib
   - ipywidgets
   - rise
-  - pip:
-    - watchdog
-    - git+https://github.com/NumEconCopenhagen/NumEcon
